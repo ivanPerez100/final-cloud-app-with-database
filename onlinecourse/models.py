@@ -22,7 +22,7 @@ class Instructor(models.Model):
     def __str__(self):
         return self.user.username
 
-
+ 
 # Learner model
 class Learner(models.Model):
     user = models.ForeignKey(
